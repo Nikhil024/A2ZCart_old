@@ -16,6 +16,7 @@ import { OrderComfirmationComponent } from './components/main-component/order-co
 import { PaymentComponent } from './components/main-component/payment/payment.component';
 import { LoginComponent } from './components/main-component/login/login.component';
 import { RegisterComponent } from './components/main-component/register/register.component';
+import { ScriptCssInlcudeFilesComponent } from './components/shared-component/script-css-inlcude-files/script-css-inlcude-files.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { RegisterComponent } from './components/main-component/register/register
     OrderComfirmationComponent,
     PaymentComponent,
     LoginComponent,
-    RegisterComponent
+    RegisterComponent,
+    ScriptCssInlcudeFilesComponent
   ],
   imports: [
     BrowserModule,
